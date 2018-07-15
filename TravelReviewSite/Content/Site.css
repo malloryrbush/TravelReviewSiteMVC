@@ -1,0 +1,93 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*MAKING NAVBAR TRANSPARENT WITH NO BORDER*/
+.navbar {
+ background-color:transparent;
+ border:none;
+}
+
+/*MAKING NAVBAR DISPLAY HORIZONTALLY IN BLOCK FORMAT*/
+.nav {
+    display:block;
+}
+
+/*GIVING NAVBAR LINKS COLOR, BORDERS, MARGINS, AND CHANGING FONT SIZE*/
+.navbar a {
+    color: black;
+    font-size: 30px;
+    border: 1px solid black;
+    margin:10px;
+}
+
+/*CHAGING FONT AND BORDER COLOR OF NAV LINKS ON HOVER. REMOVING UNDERLINE ON HOVER.*/
+.navbar a:hover{
+    color:#9d898e;
+    border:1px solid #9d898e;
+    text-decoration:none;
+}
+
+/*SETTING WIDTH AND HEIGHT OF THE BODY, ADDING A BACKGROUND IMAGE*/
+#sharedDiv {
+    width: 1336px;
+    height: 700px;
+}
+
+#homePage {
+    /*background-image: url('../photos/image from ios (3).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    width: 1336px;
+    height: 700px;
+}
+
+/*PUSHING FOOTER DOWN TO BOTTOM OF THE PAGE*/
+#homeContent {
+    height: 620px;
+    background-image: url('../photos/image from ios (3).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*MAKING JUMBOTRON LESS OPAQUE, CHANGING FONT, AND JUSTIFYING TEXT.*/
+.jumbotron {
+    margin-top: 20px;
+    opacity: 0.7;
+    font-family: 'Helvetica';
+    text-align: justify;
+}
+
+/*CHANGING JUMBOTRON HEADER SIZE. THE JUMP BETWEEN H1 AND H2 IS UNREAL.*/
+#jumbotronHeader{
+    font-size:28px;
+}
+
+#reviewsIndex{
+    font-size:15px;
+    border:1px solid gray;
+    line-height:25px;
+    text-align:left;
+}
+
+#titles{
+    font-size:20px;
+    text-decoration:underline;
+    text-align:center;
+}

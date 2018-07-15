@@ -1,0 +1,45 @@
+﻿@model IEnumerable<TravelReviewSite.Models.Category>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Cities</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@*SWAP TABLE TO DIV*@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            @Html.DisplayNameFor(model => model.City)
+        </div>
+        <div class="col">
+            @Html.DisplayNameFor(model => model.Attractions)
+        </div>
+        <div class="col">
+            @Html.DisplayNameFor(model => model.Hotels)
+        </div>
+    </div>
+
+    @*LOOP THROUGH ENTERED CITIES*@
+    @foreach (var item in Model)
+    {
+    <div class="row">
+        <div class="col">
+            @Html.DisplayFor(modelItem => item.City)
+        </div>
+        <div class="col">
+            @Html.DisplayFor(modelItem => item.Attractions)
+        </div>
+        <div class="col">
+            @Html.DisplayFor(modelItem => item.Hotels)
+        </div>
+        @Html.ActionLink("Edit", "Edit", new { id = item.CategoryID }) |
+        @Html.ActionLink("Details", "Details", new { id = item.CategoryID }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.CategoryID })
+    </div>   
+    }
+</div> 
