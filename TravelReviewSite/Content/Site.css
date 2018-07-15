@@ -81,13 +81,23 @@ textarea {
 
 #reviewsIndex{
     font-size:15px;
-    border:1px solid gray;
     line-height:25px;
     text-align:left;
 }
 
 #titles{
     font-size:20px;
-    text-decoration:underline;
     text-align:center;
+}
+
+#titleCol{
+    color:gray;
+}
+
+#reviews{
+    border-bottom:1px solid gray;
+}
+
+#cardText {
+    font-size: 18px;
 }
