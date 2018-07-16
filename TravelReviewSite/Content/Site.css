@@ -79,25 +79,30 @@ textarea {
     font-size:28px;
 }
 
+/*CHANGING FONT SIZE, ADDING EXTRA SPACING, AND ALIGNING TEXT TO THE LEFT IN THE REVIEWS INDEX PAGE*/
 #reviewsIndex{
     font-size:15px;
     line-height:25px;
     text-align:left;
 }
 
+/*MAKING THE REVIEW INDEX ITEMS LARGER AND CENTERED*/
 #titles{
     font-size:20px;
     text-align:center;
 }
 
+/*CHANGING THE COLOR OF THE TEXT OF THE REVIEW CITIES*/
 #titleCol{
     color:gray;
 }
 
+/*ADDING BOTTOM BORDERS TO SEPARATE EACH REVIEW*/
 #reviews{
     border-bottom:1px solid gray;
 }
 
+/*MAKING THE FONT IN THE REVIEW DETAILS PAGE LARGER*/
 #cardText {
     font-size: 18px;
 }

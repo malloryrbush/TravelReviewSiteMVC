@@ -10,6 +10,7 @@
     @Html.ActionLink("Create New", "Create")
 </p>
 
+@*PLACING THE REVIEW CATEGORIES IN THE TOP ROW*@
 <div id="reviewsIndex" class="container">
     <div id="titles" class="row">
         <div class="col">
@@ -33,6 +34,7 @@
         </div>
     </div><br />
     
+    @*DISPLAYING USER ADDED REVIEWS UNDERNEATH CATEOGIRES ROW*@
     @foreach (var item in Model)
     {
     <div id="reviews" class="row">
